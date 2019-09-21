@@ -22,15 +22,15 @@ public class ArmstrongNo {
         System.out.println("Enter any no.");
         Scanner scr = new Scanner(System.in);
         int number = scr.nextInt();
-
+        int temp = number;
         if (number >= 0) {
-            while (sum > 0) {
+            while (number > 0) {
                 rem = number % 10;
                 number = number / 10;
                 j = rem * rem * rem;
                 sum = sum + j;
             }
-            if (number == sum) {
+            if (temp == sum) {
                 System.out.println(number + " is an Armstrong no.");
             } else {
                 System.out.println(number + " is not an Armstrong no.");
