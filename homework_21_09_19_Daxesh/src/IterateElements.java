@@ -15,7 +15,16 @@ public class IterateElements {
         employeeName.add("Gaurang");
         employeeName.add("Sachin");
         employeeName.add("Pratik");
+        
+                                       // iterate by using  for loop
 
-
+        for (int i = 0; i < employeeName.size(); i++) {
+            System.out.print(employeeName.get(i));
+        }
+                                  // iterate by using advance for loop
+        System.out.println();
+        for (String name : employeeName) {
+            System.out.print(name + " ");
+        }    
     }
 }
