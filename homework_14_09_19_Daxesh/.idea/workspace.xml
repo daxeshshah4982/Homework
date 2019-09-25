@@ -5,30 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="435bdabc-1b08-4c43-80a9-1409f689be81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Samsung.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArmstrongNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraySortIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AverageArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Consonant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DigitSumChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FibonacciNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FirstAndLastDigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MinAndMaxInputChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PatternDiamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PatternTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReversingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RightAngleTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SharedDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpecificValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumInArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserInputChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/homework_21_09_19_Daxesh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/out/production/homework_21_09_19_Daxesh/ReversingNo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/src/AddMatrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/src/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/src/RemoveArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_21_09_19_Daxesh/src/ReversingNo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/homework_14_09_19_Daxesh/ArmstrongNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/homework_14_09_19_Daxesh/ArmstrongNo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArmstrongNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArmstrongNo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserInputChallenge">
+  <component name="RunManager" selected="Application.FibonacciNumber">
     <configuration name="ArmstrongNo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArmstrongNo" />
       <module name="homework_14_09_19_Daxesh" />
@@ -149,6 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Person" />
+      <module name="homework_14_09_19_Daxesh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimeNo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNo" />
       <module name="homework_14_09_19_Daxesh" />
@@ -193,6 +191,13 @@
     </configuration>
     <configuration name="UserInputChallenge" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UserInputChallenge" />
+      <module name="homework_14_09_19_Daxesh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wall" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Wall" />
       <module name="homework_14_09_19_Daxesh" />
       <method v="2">
         <option name="Make" enabled="true" />
