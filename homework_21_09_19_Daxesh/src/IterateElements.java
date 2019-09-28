@@ -4,9 +4,10 @@ import java.util.ArrayList;
  */
 public class IterateElements {
     public static void main(String[] args) {
-       itEl();
+        itEl();
     }
-    public static void itEl(){
+
+    public static void itEl() {
         ArrayList<String> employeeName = new ArrayList<>();
 
         employeeName.add("Daxesh");
@@ -16,6 +17,16 @@ public class IterateElements {
         employeeName.add("Sachin");
         employeeName.add("Pratik");
 
+        // iterate by using  for loop
+
+        for (int i = 0; i < employeeName.size(); i++) {
+            System.out.print(employeeName.get(i) + " , ");
+        }
+// iterate by using advance for loop
+        System.out.println();
+        for (String name : employeeName) {
+            System.out.print(name + " , ");
+        }
 
     }
 }

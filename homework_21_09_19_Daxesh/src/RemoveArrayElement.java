@@ -11,7 +11,7 @@ public class RemoveArrayElement {
         System.out.println("length of array element a is : "+a.length);
 
         System.out.print("array elements before removing the elements : " + Arrays.toString(a));
-        //remove the element 2 (basically here 3 in array list)
+        //remove the element 2 (basically here 3rd in array list)
 
         a[2] = a[a.length - 1];
         int [] b = new int[a.length-1];
