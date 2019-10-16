@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71d96f60-33c3-4a2c-9547-57cd54330a2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../homework_14_09_19_Daxesh/homework_14_09_19_Daxesh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_5_10_19/seleniumWebDriverPractice/selenium-webdriver-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium-webdriver-practice-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selenium-webdriver-practice-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium-webdriver-practice-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selenium-webdriver-practice-master/selenium-webdriver-practice/src/actionsclass/MouseHoverActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium-webdriver-practice-master/selenium-webdriver-practice/src/actionsclass/MouseHoverActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/seleniumHomework12_10_19/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/seleniumHomework12_10_19/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumPractice/src/LogInToNopCommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumPractice/src/LogInToNopCommerce.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1S9PcSy73WSQsW3IDhKOffVAEyV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/driver" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Mercurial" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samsung\IdeaProjects\seleniumHomework12_10_19\driver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ComputerCategory.computerCategory">
+    <configuration name="ComputerCategory.computerCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumHomework12_10_19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerCategory" />
+      <option name="METHOD_NAME" value="computerCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationPage.computerCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumHomework12_10_19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationPage" />
+      <option name="METHOD_NAME" value="computerCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationPage.navigateTORegisterPageSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumHomework12_10_19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationPage" />
+      <option name="METHOD_NAME" value="navigateTORegisterPageSuccessfully" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationPage.registrationOnDemoNopCommerce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumHomework12_10_19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationPage" />
+      <option name="METHOD_NAME" value="registrationOnDemoNopCommerce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationPage.test2computerCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seleniumHomework12_10_19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationPage" />
+      <option name="METHOD_NAME" value="test2computerCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ComputerCategory.computerCategory" />
+        <item itemvalue="JUnit.RegistrationPage.test2computerCategory" />
+        <item itemvalue="JUnit.RegistrationPage.computerCategory" />
+        <item itemvalue="JUnit.RegistrationPage.registrationOnDemoNopCommerce" />
+        <item itemvalue="JUnit.RegistrationPage.navigateTORegisterPageSuccessfully" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71d96f60-33c3-4a2c-9547-57cd54330a2c" name="Default Changelist" comment="" />
+      <created>1570916383533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570916383533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
