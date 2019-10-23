@@ -6,7 +6,7 @@ public class CallingAllClasses extends Average {
     }
 
     public static void main(String[] args) {
-
+//Calculator cal = new Calculator();
         CallingAllClasses cac1 = new CallingAllClasses(12, 20);
 
         int result1 = cac1.addition(12, 13, 10);
@@ -21,6 +21,9 @@ public class CallingAllClasses extends Average {
         int result10 = cac1.multi(10,5,5);
         double result11 = div(12.56,5.3);
         String result12 = cac1.strAdd("Daxesh",49);
+        cac1.add(12,26);
+        cac1.add("Anjana", 68);
+        cac1.add(15,"Maitra");
 
         System.out.println("addition object :" + result1);
         System.out.println("subtraction object :" + result2);
@@ -36,6 +39,9 @@ public class CallingAllClasses extends Average {
         System.out.println("method overloaded for multiplication in child class Average with same name and less no. of argument :" + result10);
         System.out.println("method override for division in child class Average with same name and less no. of argument :" + result11);
         System.out.println("method override for stradd in child class Average with same name and same no. of argument :" + result12);
+       // System.out.println("method overload for add in  class Calculator with same name and different argument :" + result13);
+       // System.out.println("method overload for add in  class Calculator with same name and different argument :" + result14);
+
 
 
     }

@@ -4,6 +4,7 @@ public class Calculator {
 int a;
 int b;
 
+
     public Calculator(int a , int b){
        this.a =a;
        this.b = b;
@@ -16,6 +17,17 @@ int b;
     public int addition(int a, int b){
         System.out.println(this.a +this.b);
         return this.a +this.b;
+    }
+    public void add(int a, int b){
+        System.out.println(a+b);
+
+    }
+    public void add(String a, int b){
+        System.out.println(a+b);
+
+    }
+    public void add(int a, String b){
+        System.out.println(a+b);
     }
     public int subtraction(int a, int b, int c){
         Calculator sub = new Calculator(2,5);

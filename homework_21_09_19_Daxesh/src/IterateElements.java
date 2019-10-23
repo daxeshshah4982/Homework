@@ -15,11 +15,8 @@ public class IterateElements {
         employeeName.add("Kaushik");
         employeeName.add("Gaurang");
         employeeName.add("Sachin");
-        employeeName.add("Pratik");
-        
-                                       // iterate by using  for loop
-
-<<<<<<< HEAD
+        employeeName.add("Pratik");// iterate by using  for loop
+        //HEAD
         // iterate by using  for loop
 
         for (int i = 0; i < employeeName.size(); i++) {
@@ -31,7 +28,6 @@ public class IterateElements {
             System.out.print(name + " , ");
         }
 
-=======
         for (int i = 0; i < employeeName.size(); i++) {
             System.out.print(employeeName.get(i));
         }
@@ -40,6 +36,6 @@ public class IterateElements {
         for (String name : employeeName) {
             System.out.print(name + " ");
         }    
->>>>>>> ca97204ce13ffe7988dea32314a25c9053524ae6
+
     }
 }
