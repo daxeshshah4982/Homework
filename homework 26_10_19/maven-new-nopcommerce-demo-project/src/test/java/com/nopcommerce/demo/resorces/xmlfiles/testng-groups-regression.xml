@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression TestSuite">
+    <test name="Groups">
+        <groups>
+            <define name="Regression Test">
+                <include name="regression"></include>
+            </define>
+
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.nopcommerce.demo.testsuite.HomePageTest"></class>
+            <class name="com.nopcommerce.demo.testsuite.RegisterPageTest"></class>
+            <class name="com.nopcommerce.demo.testsuite.DesktopPageTest"></class>
+            <class name="com.nopcommerce.demo.testsuite.ItemPageTest"></class>
+            <class name="com.nopcommerce.demo.testsuite.ComputerPageTest"></class>
+
+        </classes>
+    </test>
+</suite>
