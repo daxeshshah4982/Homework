@@ -1,0 +1,142 @@
+2019-11-04 16:11:378 INFO  HomePage :66 - click on Login Link
+2019-11-04 16:11:795 INFO  LoginPage :22 - Enter email
+2019-11-04 16:11:969 INFO  LoginPage :27 - Enter password
+2019-11-04 16:11:240 INFO  LoginPage :32 - click on Login button
+2019-11-04 16:11:08 INFO  HomePage :31 - click on computer
+2019-11-04 16:11:340 INFO  HomePage :36 - click on electronics
+2019-11-04 16:11:365 INFO  HomePage :41 - click on Apparel
+2019-11-04 16:11:72 INFO  HomePage :46 - click on Digital Download
+2019-11-04 16:11:313 INFO  HomePage :51 - click on Books
+2019-11-04 16:11:86 INFO  HomePage :56 - click on Jewelry
+2019-11-04 16:11:878 INFO  HomePage :61 - click on Gift cards
+2019-11-04 22:11:291 INFO  HomePage :31 - click on computer
+2019-11-04 22:11:988 INFO  HomePage :36 - click on electronics
+2019-11-04 22:11:100 INFO  HomePage :41 - click on Apparel
+2019-11-04 22:11:457 INFO  HomePage :46 - click on Digital Download
+2019-11-04 22:11:22 INFO  HomePage :51 - click on Books
+2019-11-04 22:11:624 INFO  HomePage :56 - click on Jewelry
+2019-11-04 22:11:485 INFO  HomePage :61 - click on Gift cards
+2019-11-05 09:11:450 INFO  HomePage :31 - click on computer
+2019-11-05 09:11:104 INFO  HomePage :36 - click on electronics
+2019-11-05 10:11:175 INFO  HomePage :72 - click on Register link
+2019-11-05 10:11:725 INFO  RegisterPage :53 - Verifying register page
+2019-11-05 10:11:50 INFO  HomePage :72 - click on Register link
+2019-11-05 10:11:263 INFO  RegisterPage :53 - Verifying register page
+2019-11-05 10:11:208 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 10:11:541 INFO  HomePage :72 - click on Register link
+2019-11-05 10:11:895 INFO  RegisterPage :53 - Verifying register page
+2019-11-05 10:11:33 INFO  HomePage :72 - click on Register link
+2019-11-05 10:11:426 INFO  RegisterPage :53 - Verifying register page
+2019-11-05 10:11:492 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 10:11:596 INFO  RegisterPage :63 - Enter first name
+2019-11-05 10:11:15 INFO  RegisterPage :68 - Enter last name
+2019-11-05 10:11:677 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 10:11:606 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 10:11:847 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 10:11:991 INFO  RegisterPage :88 - Enter Email
+2019-11-05 10:11:420 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 10:11:125 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 10:11:475 INFO  RegisterPage :103 - Enter password
+2019-11-05 10:11:983 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 10:11:468 INFO  RegisterPage :113 - click on register button
+2019-11-05 10:11:973 INFO  RegisterPage :118 - Verify registration
+2019-11-05 10:11:862 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 10:11:923 INFO  HomePage :72 - click on Register link
+2019-11-05 10:11:742 INFO  RegisterPage :53 - Verifying register page
+2019-11-05 10:11:865 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 10:11:90 INFO  RegisterPage :63 - Enter first name
+2019-11-05 10:11:826 INFO  RegisterPage :68 - Enter last name
+2019-11-05 10:11:440 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 10:11:318 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 10:11:696 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 10:11:923 INFO  RegisterPage :88 - Enter Email
+2019-11-05 10:11:153 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 10:11:843 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 10:11:08 INFO  RegisterPage :103 - Enter password
+2019-11-05 10:11:204 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 10:11:399 INFO  RegisterPage :113 - click on register button
+2019-11-05 10:11:796 INFO  RegisterPage :123 - Registration incomplete
+2019-11-05 11:11:661 INFO  HomePage :72 - click on Register link
+2019-11-05 11:11:149 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 11:11:269 INFO  RegisterPage :63 - Enter first name
+2019-11-05 11:11:502 INFO  RegisterPage :68 - Enter last name
+2019-11-05 11:11:616 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 11:11:844 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:119 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:562 INFO  RegisterPage :88 - Enter Email
+2019-11-05 11:11:968 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 11:11:479 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 11:11:672 INFO  RegisterPage :103 - Enter password
+2019-11-05 11:11:986 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 11:11:361 INFO  RegisterPage :113 - click on register button
+2019-11-05 11:11:41 INFO  RegisterPage :123 - Registration incomplete
+2019-11-05 11:11:388 INFO  HomePage :72 - click on Register link
+2019-11-05 11:11:61 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 11:11:175 INFO  RegisterPage :63 - Enter first name
+2019-11-05 11:11:274 INFO  RegisterPage :68 - Enter last name
+2019-11-05 11:11:436 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 11:11:632 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:871 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:03 INFO  RegisterPage :88 - Enter Email
+2019-11-05 11:11:416 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 11:11:175 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 11:11:316 INFO  RegisterPage :103 - Enter password
+2019-11-05 11:11:540 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 11:11:718 INFO  RegisterPage :113 - click on register button
+2019-11-05 11:11:906 INFO  RegisterPage :123 - Registration incomplete
+2019-11-05 11:11:568 INFO  HomePage :72 - click on Register link
+2019-11-05 11:11:951 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 11:11:51 INFO  RegisterPage :63 - Enter first name
+2019-11-05 11:11:222 INFO  RegisterPage :68 - Enter last name
+2019-11-05 11:11:367 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 11:11:932 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:650 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:16 INFO  RegisterPage :88 - Enter Email
+2019-11-05 11:11:510 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 11:11:779 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 11:11:889 INFO  RegisterPage :103 - Enter password
+2019-11-05 11:11:202 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 11:11:750 INFO  RegisterPage :113 - click on register button
+2019-11-05 11:11:316 INFO  RegisterPage :123 - Registration incomplete
+2019-11-05 11:11:20 INFO  HomePage :72 - click on Register link
+2019-11-05 11:11:388 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 11:11:498 INFO  RegisterPage :63 - Enter first name
+2019-11-05 11:11:665 INFO  RegisterPage :68 - Enter last name
+2019-11-05 11:11:845 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 11:11:35 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:244 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:373 INFO  RegisterPage :88 - Enter Email
+2019-11-05 11:11:661 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 11:11:377 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 11:11:738 INFO  RegisterPage :103 - Enter password
+2019-11-05 11:11:324 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 11:11:472 INFO  RegisterPage :113 - click on register button
+2019-11-05 11:11:619 INFO  RegisterPage :123 - Registration incomplete
+2019-11-05 11:11:430 INFO  HomePage :72 - click on Register link
+2019-11-05 11:11:53 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 11:11:277 INFO  RegisterPage :63 - Enter first name
+2019-11-05 11:11:513 INFO  RegisterPage :68 - Enter last name
+2019-11-05 11:11:931 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 11:11:732 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:487 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:660 INFO  RegisterPage :88 - Enter Email
+2019-11-05 11:11:56 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 11:11:342 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 11:11:549 INFO  RegisterPage :103 - Enter password
+2019-11-05 11:11:47 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 11:11:978 INFO  RegisterPage :113 - click on register button
+2019-11-05 11:11:194 INFO  RegisterPage :123 - Registration incomplete
+2019-11-05 11:11:605 INFO  HomePage :72 - click on Register link
+2019-11-05 11:11:946 INFO  RegisterPage :58 - click on female radio button
+2019-11-05 11:11:70 INFO  RegisterPage :63 - Enter first name
+2019-11-05 11:11:272 INFO  RegisterPage :68 - Enter last name
+2019-11-05 11:11:455 INFO  RegisterPage :73 - Select day for date of birth
+2019-11-05 11:11:898 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:555 INFO  RegisterPage :78 - Select month for date of birth
+2019-11-05 11:11:10 INFO  RegisterPage :88 - Enter Email
+2019-11-05 11:11:597 INFO  RegisterPage :93 - Enter comapny name
+2019-11-05 11:11:887 INFO  RegisterPage :98 - click on newsletter checkbox
+2019-11-05 11:11:20 INFO  RegisterPage :103 - Enter password
+2019-11-05 11:11:253 INFO  RegisterPage :108 - Enter confirmed password
+2019-11-05 11:11:392 INFO  RegisterPage :113 - click on register button
+2019-11-05 11:11:613 INFO  RegisterPage :123 - Registration incomplete
