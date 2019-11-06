@@ -1,0 +1,23 @@
+2019-11-06 21:11:319 INFO  HomePage :72 - click on register link
+2019-11-06 21:11:11 INFO  RegisterPage :38 - enter female in radio button
+2019-11-06 21:11:117 INFO  RegisterPage :43 - enter first name
+2019-11-06 21:11:431 INFO  RegisterPage :48 - enter last name
+2019-11-06 21:11:687 INFO  RegisterPage :53 - select date for dob
+2019-11-06 21:11:154 INFO  RegisterPage :58 - select month for dob
+2019-11-06 21:11:848 INFO  RegisterPage :63 - enter year for dob
+2019-11-06 21:11:195 INFO  RegisterPage :68 - enter email
+2019-11-06 21:11:626 INFO  RegisterPage :72 - enter company name
+2019-11-06 21:11:964 INFO  RegisterPage :76 - click on newsletter
+2019-11-06 21:11:86 INFO  RegisterPage :80 - enter password
+2019-11-06 21:11:327 INFO  RegisterPage :84 - enter confirmed password
+2019-11-06 21:11:819 INFO  RegisterPage :88 - click on registration button
+2019-11-06 21:11:357 INFO  RegisterPage :92 - verify text after registration 
+2019-11-06 21:11:260 INFO  HomePage :25 - verify homepage
+2019-11-06 21:11:571 INFO  HomePage :30 - select currency on homepage
+2019-11-06 21:11:197 INFO  HomePage :37 - click on computer on homepage
+2019-11-06 21:11:208 INFO  HomePage :42 - click on electonics on homepage
+2019-11-06 21:11:505 INFO  HomePage :47 - click on apparel 
+2019-11-06 21:11:912 INFO  HomePage :52 - click on digital download
+2019-11-06 21:11:64 INFO  HomePage :57 - click on books
+2019-11-06 21:11:865 INFO  HomePage :62 - click on jewelry
+2019-11-06 21:11:764 INFO  HomePage :67 - click on gift cards

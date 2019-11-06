@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="69.107" tests="24" errors="0" skipped="19" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Samsung\IdeaProjects\maven-demo-nopcommerce-project\target\test-classes;C:\Users\Samsung\IdeaProjects\maven-demo-nopcommerce-project\target\classes;C:\Users\Samsung\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Samsung\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Samsung\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Samsung\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Samsung\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Samsung\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Samsung\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Samsung\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Samsung\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Samsung\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Samsung\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Samsung\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Samsung\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Samsung\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Samsung\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Samsung\AppData\Local\Temp\surefire1694947033493944017\surefirebooter2732970472849471992.jar C:\Users\Samsung\AppData\Local\Temp\surefire1694947033493944017 2019-10-26T14-53-22_012-jvmRun1 surefire3911436424753110851tmp surefire_01215139102181923912tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Samsung\IdeaProjects\maven-demo-nopcommerce-project\target\test-classes;C:\Users\Samsung\IdeaProjects\maven-demo-nopcommerce-project\target\classes;C:\Users\Samsung\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Samsung\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Samsung\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Samsung\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Samsung\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Samsung\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Samsung\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Samsung\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Samsung\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Samsung\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Samsung\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Samsung\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Samsung\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Samsung\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Samsung\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Samsung\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Samsung"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="basedir" value="C:\Users\Samsung\IdeaProjects\maven-demo-nopcommerce-project"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Samsung\AppData\Local\Temp\surefire1694947033493944017\surefirebooter2732970472849471992.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="Samsung"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Samsung\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Samsung\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="C:\Users\Samsung\IdeaProjects\maven-demo-nopcommerce-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Users\Samsung\AppData\Local\Smartbar\Application\;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\64bit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" time="31.896">
+    <failure message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f7dffa7b1dac702d1af65dbe6bd3cb57" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DAXESH', ip: '172.17.16.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f7dffa7b1dac702d1af65dbe6bd3cb57
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 3527
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Oct 26, 2019 2:53:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="userShouldNavigateToComputerPage" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" time="0">
+    <skipped message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f7dffa7b1dac702d1af65dbe6bd3cb57"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.ComputerPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.DesktopPageTest" time="47.597">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e787e9f392b3791388ee12067857bf2d" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DAXESH', ip: '172.17.16.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e787e9f392b3791388ee12067857bf2d
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 32330
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Oct 26, 2019 2:54:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.DesktopPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userShouldNavigateToDeskTopPage" classname="com.nopcommerce.demo.testsuite.DesktopPageTest" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e787e9f392b3791388ee12067857bf2d"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.DesktopPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.DesktopPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userShouldPickItemFromDesktop" classname="com.nopcommerce.demo.testsuite.DesktopPageTest" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e787e9f392b3791388ee12067857bf2d"/>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.HomePageTest" time="54.823">
+    <failure message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBAE2+441058]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DAXESH', ip: '172.17.16.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBAE2+441058]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 18142
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="userShouldNavigateToHomePage" classname="com.nopcommerce.demo.testsuite.HomePageTest" time="0">
+    <skipped message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBAE2+441058]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.ItemPageTest" time="60.743">
+    <failure message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBAE2+441058]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DAXESH', ip: '172.17.16.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBAE2+441058]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 43628
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.ItemPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userShouldAddItemToCart" classname="com.nopcommerce.demo.testsuite.ItemPageTest" time="0">
+    <skipped message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBAE2+441058]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.ItemPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.ItemPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userShouldNavigateToItemPage" classname="com.nopcommerce.demo.testsuite.ItemPageTest" time="0">
+    <skipped message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBAE2+441058]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;"/>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" time="67.399">
+    <failure message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00AE374D+472909]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADF6D1+456401]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00AE2C67+470119]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADF6D1+456401]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBA0C+440844]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DAXESH', ip: '172.17.16.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00AE374D+472909]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADF6D1+456401]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00AE2C67+470119]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADF6D1+456401]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBA0C+440844]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 19286
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="setUP" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userShouldNavigateToRegisterPageSuccessfully" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" time="0">
+    <skipped message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00AE374D+472909]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADF6D1+456401]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00AE2C67+470119]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADF6D1+456401]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBA0C+440844]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userShouldRegisterOnNopCommerceApplication" classname="com.nopcommerce.demo.testsuite.RegisterPageTest" time="0">
+    <skipped message="session not created&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=77.0.3865.120)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00BDEB13+1501971]&#10;	Ordinal0 [0x00B5F6D1+980689]&#10;	Ordinal0 [0x00AE765F+489055]&#10;	Ordinal0 [0x00AE02B5+459445]&#10;	Ordinal0 [0x00ADFEA4+458404]&#10;	Ordinal0 [0x00ADFA1D+457245]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00AE374D+472909]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADF6D1+456401]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00AE2C67+470119]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADF6D1+456401]&#10;	Ordinal0 [0x00ADF21D+455197]&#10;	Ordinal0 [0x00ADEDE4+454116]&#10;	Ordinal0 [0x00ADEDA5+454053]&#10;	Ordinal0 [0x00ADBA0C+440844]&#10;	Ordinal0 [0x00ADED5C+453980]&#10;	Ordinal0 [0x00ADEC44+453700]&#10;	Ordinal0 [0x00AE8330+492336]&#10;	Ordinal0 [0x00A9A108+172296]&#10;	Ordinal0 [0x00A9942D+169005]&#10;	Ordinal0 [0x00A978EB+162027]&#10;	Ordinal0 [0x00A80AC7+68295]&#10;	Ordinal0 [0x00A81B40+72512]&#10;	Ordinal0 [0x00A81AD9+72409]&#10;	Ordinal0 [0x00B78F37+1085239]&#10;	GetHandleVerifier [0x00C7D7ED+503293]&#10;	GetHandleVerifier [0x00C7D580+502672]&#10;	GetHandleVerifier [0x00C846AC+531644]&#10;	GetHandleVerifier [0x00C7DFFA+505354]&#10;	Ordinal0 [0x00B70606+1050118]&#10;	Ordinal0 [0x00B7047F+1049727]&#10;	Ordinal0 [0x00B7AF9B+1093531]&#10;	Ordinal0 [0x00B7B103+1093891]&#10;	Ordinal0 [0x00B7A095+1089685]&#10;	BaseThreadInitThunk [0x755C8494+36]&#10;	RtlAreBitsSet [0x77DE41C8+136]&#10;	RtlAreBitsSet [0x77DE4198+88]&#10;"/>
+  </testcase>
+</testsuite>

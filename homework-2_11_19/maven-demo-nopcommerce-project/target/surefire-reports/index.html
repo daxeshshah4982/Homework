@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,  8 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.ItemPageTest" hash-for-method="userShouldAddItemToCart">userShouldAddItemToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.ComputerPageTest" hash-for-method="userShouldNavigateToComputerPage">userShouldNavigateToComputerPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.DesktopPageTest" hash-for-method="userShouldNavigateToDeskTopPage">userShouldNavigateToDeskTopPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.HomePageTest" hash-for-method="userShouldNavigateToHomePage">userShouldNavigateToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.ItemPageTest" hash-for-method="userShouldNavigateToItemPage">userShouldNavigateToItemPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.RegisterPageTest" hash-for-method="userShouldNavigateToRegisterPageSuccessfully">userShouldNavigateToRegisterPageSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.DesktopPageTest" hash-for-method="userShouldPickItemFromDesktop">userShouldPickItemFromDesktop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nopcommerce.demo.testsuite.RegisterPageTest" hash-for-method="userShouldRegisterOnNopCommerceApplication">userShouldRegisterOnNopCommerceApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.nopcommerce.demo.testsuite.ItemPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldAddItemToCart">
+                  </a> <!-- userShouldAddItemToCart -->
+                  <span class="method-name">userShouldAddItemToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBAE2+441058]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:17)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToItemPage">
+                  </a> <!-- userShouldNavigateToItemPage -->
+                  <span class="method-name">userShouldNavigateToItemPage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBAE2+441058]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:17)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.nopcommerce.demo.testsuite.DesktopPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToDeskTopPage">
+                  </a> <!-- userShouldNavigateToDeskTopPage -->
+                  <span class="method-name">userShouldNavigateToDeskTopPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e787e9f392b3791388ee12067857bf2d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:19)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldPickItemFromDesktop">
+                  </a> <!-- userShouldPickItemFromDesktop -->
+                  <span class="method-name">userShouldPickItemFromDesktop</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e787e9f392b3791388ee12067857bf2d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:19)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.nopcommerce.demo.testsuite.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToRegisterPageSuccessfully">
+                  </a> <!-- userShouldNavigateToRegisterPageSuccessfully -->
+                  <span class="method-name">userShouldNavigateToRegisterPageSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00AE374D+472909]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADF6D1+456401]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00AE2C67+470119]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADF6D1+456401]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBA0C+440844]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:17)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldRegisterOnNopCommerceApplication">
+                  </a> <!-- userShouldRegisterOnNopCommerceApplication -->
+                  <span class="method-name">userShouldRegisterOnNopCommerceApplication</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00AE374D+472909]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADF6D1+456401]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00AE2C67+470119]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADF6D1+456401]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBA0C+440844]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:17)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.nopcommerce.demo.testsuite.ComputerPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToComputerPage">
+                  </a> <!-- userShouldNavigateToComputerPage -->
+                  <span class="method-name">userShouldNavigateToComputerPage</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f7dffa7b1dac702d1af65dbe6bd3cb57
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:18)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.nopcommerce.demo.testsuite.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userShouldNavigateToHomePage">
+                  </a> <!-- userShouldNavigateToHomePage -->
+                  <span class="method-name">userShouldNavigateToHomePage</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=77.0.3865.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DAXESH&apos;, ip: &apos;172.17.16.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_152&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00BDEB13+1501971]
+	Ordinal0 [0x00B5F6D1+980689]
+	Ordinal0 [0x00AE765F+489055]
+	Ordinal0 [0x00AE02B5+459445]
+	Ordinal0 [0x00ADFEA4+458404]
+	Ordinal0 [0x00ADFA1D+457245]
+	Ordinal0 [0x00ADF21D+455197]
+	Ordinal0 [0x00ADEDE4+454116]
+	Ordinal0 [0x00ADEDA5+454053]
+	Ordinal0 [0x00ADBAE2+441058]
+	Ordinal0 [0x00ADED5C+453980]
+	Ordinal0 [0x00ADEC44+453700]
+	Ordinal0 [0x00AE8330+492336]
+	Ordinal0 [0x00A9A108+172296]
+	Ordinal0 [0x00A9942D+169005]
+	Ordinal0 [0x00A978EB+162027]
+	Ordinal0 [0x00A80AC7+68295]
+	Ordinal0 [0x00A81B40+72512]
+	Ordinal0 [0x00A81AD9+72409]
+	Ordinal0 [0x00B78F37+1085239]
+	GetHandleVerifier [0x00C7D7ED+503293]
+	GetHandleVerifier [0x00C7D580+502672]
+	GetHandleVerifier [0x00C846AC+531644]
+	GetHandleVerifier [0x00C7DFFA+505354]
+	Ordinal0 [0x00B70606+1050118]
+	Ordinal0 [0x00B7047F+1049727]
+	Ordinal0 [0x00B7AF9B+1093531]
+	Ordinal0 [0x00B7B103+1093891]
+	Ordinal0 [0x00B7A095+1089685]
+	BaseThreadInitThunk [0x755C8494+36]
+	RtlAreBitsSet [0x77DE41C8+136]
+	RtlAreBitsSet [0x77DE4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.nopcommerce.demo.browserselector.BrowserSelector.selectBrowser(BrowserSelector.java:17)
+	at com.nopcommerce.demo.testbase.TestBase.setUP(TestBase.java:16)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nopcommerce.demo.testbase.TestBase&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.demo.testsuite.ComputerPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.demo.testsuite.DesktopPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.demo.testsuite.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.demo.testsuite.ItemPageTest&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.demo.testsuite.RegisterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userShouldNavigateToDeskTopPage')
+data.setCell(0, 2, 'com.nopcommerce.demo.testsuite.DesktopPageTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'userShouldNavigateToRegisterPageSuccessfully')
+data.setCell(1, 2, 'com.nopcommerce.demo.testsuite.RegisterPageTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userShouldNavigateToHomePage')
+data.setCell(2, 2, 'com.nopcommerce.demo.testsuite.HomePageTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'userShouldNavigateToComputerPage')
+data.setCell(3, 2, 'com.nopcommerce.demo.testsuite.ComputerPageTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'userShouldPickItemFromDesktop')
+data.setCell(4, 2, 'com.nopcommerce.demo.testsuite.DesktopPageTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userShouldNavigateToItemPage')
+data.setCell(5, 2, 'com.nopcommerce.demo.testsuite.ItemPageTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'userShouldAddItemToCart')
+data.setCell(6, 2, 'com.nopcommerce.demo.testsuite.ItemPageTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userShouldRegisterOnNopCommerceApplication')
+data.setCell(7, 2, 'com.nopcommerce.demo.testsuite.RegisterPageTest')
+data.setCell(7, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.ComputerPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToComputerPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.DesktopPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToDeskTopPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userShouldPickItemFromDesktop</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToHomePage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.ItemPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userShouldAddItemToCart</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToItemPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userShouldNavigateToRegisterPageSuccessfully</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userShouldRegisterOnNopCommerceApplication</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.ComputerPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUP</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.DesktopPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUP</span>
+                <span class="method-start">30612 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUP</span>
+                <span class="method-start">46301 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.ItemPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUP</span>
+                <span class="method-start">53526 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.demo.testsuite.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUP</span>
+                <span class="method-start">59453 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

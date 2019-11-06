@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.nopcommerce.demo.testsuite.ItemPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="userShouldAddItemToCart"/>
+          <include name="userShouldNavigateToItemPage"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.ItemPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.DesktopPageTest">
+        <methods>
+          <include name="userShouldNavigateToDeskTopPage"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="userShouldPickItemFromDesktop"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.DesktopPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.ComputerPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="userShouldNavigateToComputerPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.ComputerPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.RegisterPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="userShouldNavigateToRegisterPageSuccessfully"/>
+          <include name="userShouldRegisterOnNopCommerceApplication"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.RegisterPageTest -->
+      <class name="com.nopcommerce.demo.testsuite.HomePageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="userShouldNavigateToHomePage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.HomePageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

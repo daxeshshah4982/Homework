@@ -1,0 +1,9 @@
+com\nopcommerce\demo\loadproperty\LoadProperty.class
+com\nopcommerce\demo\pages\ComputerPage.class
+com\nopcommerce\demo\pages\DesktopPage.class
+com\nopcommerce\demo\basepage\BasePage.class
+com\nopcommerce\demo\pages\HomePage.class
+com\nopcommerce\demo\pages\ItemPage.class
+com\nopcommerce\demo\utility\Util.class
+com\nopcommerce\demo\browserselector\BrowserSelector.class
+com\nopcommerce\demo\pages\RegisterPage.class
