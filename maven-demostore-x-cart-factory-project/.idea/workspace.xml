@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9103d0f-a8db-470a-be64-5524c5b1c036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../espncricinfo/maven-espn-cricinfo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_14_09_19_Daxesh/homework_14_09_19_Daxesh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework_5_10_19/seleniumWebDriverPractice/selenium-webdriver-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../john carry 2-11 log4j/sample-nopcommerce-maven-project-master/.idea/sample-nopcommerce-maven-project-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/maven project with hml doc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/sample-nopcommerce-maven-project-master/sample-maven-project/sample-maven-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven project with hml doc/sample-nopcommerce-maven-project-master/sample-maven-project/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-appearhere-co-uk-cucumber-project/maven-appearhere-co-uk-cucumber-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo-nopcommerce-project/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo-nopcommerce-project/.idea/maven-demo-nopcommerce-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo-nopcommerce-project/maven-demo-nopcommerce-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo-nopcommerce-project/src/main/java/com/nopcommerce/demo/log/log.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-demo-nopcommerce-project/src/test/java/com/nopcommerce/demo/resorces/propertyfiles/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/MicrosoftWebDriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-demostore-x-cart-factory-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcart/demostore/basepage/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcart/demostore/browserselector/BrowserSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcart/demostore/loadproperty/LoadProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcart/demostore/log/log.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcart/demostore/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xcart/demostore/utility/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xcart/demostore/resources/properties/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xcart/demostore/resources/properties/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xcart/demostore/testbase/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/xcart/demostore/testsuite/ItemPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xcart/demostore/basepage/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xcart/demostore/browserselector/BrowserSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xcart/demostore/loadproperty/LoadProperty.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xcart/demostore/pages/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/xcart/demostore/utility/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/xcart/demostore/testbase/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/xcart/demostore/testpages/ItemPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-espn-cricinfo-com-cucumber-project/maven-espn-cricinfo-com-cucumber-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-hotstar-uk/maven-hotstar-uk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-new-nopcommerce-demo-project/.idea/maven-new-nopcommerce-demo-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-new-nopcommerce-demo-project/maven-new-nopcommerce-demo-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orange-hrmlive-cucumber-project/maven-opensource-demo-orange-hrmlive-cucumber-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orange-hrmlive-cucumber-project/src/main/java/com/hrmlive/orange/demo/opensource/loadproperty/LoadProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orange-hrmlive-cucumber-project/src/test/java/com/hrmlive/orange/demo/opensource/LoginStepsDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orange-hrmlive-cucumber-project/src/test/java/resources/featurefiles/loginpage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orangehrm-live-com-project/maven-opensource-demo-orangehrm-live-com-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orangehrm-project/.idea/maven-opensource-demo-orangehrm-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-opensource-demo-orangehrm/maven-opensource-demo-orangehrm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maven-zero-webappsecurity-com-cucumber-project/maven-zero-webappsecurity-com-cucumber-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netflix-com/maven-netflix-com-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-maven-project-hml-doc/sample-maven-project-hml-doc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-maven-project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-maven-project/.idea/sample-maven-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-maven-project/sample-maven-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-new-cucumber-project/sample-new-cucumber-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-nopcommerce-maven-project-master/.idea/sample-nopcommerce-maven-project-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-nopcommerce-maven-project-master/sample-maven-project/sample-maven-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample-page-factory-project/sample-page-factory-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../selenium-webdriver-practice-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/src/ComputerCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumMavenProjectPractice/seleniumMavenProjectPractice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seleniumPractice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selenium-webdriver-practice-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium-webdriver-practice-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selenium-webdriver-practice-master/selenium-webdriver-practice/src/actionsclass/MouseHoverActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../selenium-webdriver-practice-master/selenium-webdriver-practice/src/actionsclass/MouseHoverActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework12_10_19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework12_10_19/out/production/seleniumHomework12_10_19/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/out/production/seleniumHomework12_10_19/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework12_10_19/out/production/seleniumHomework12_10_19/Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/out/production/seleniumHomework12_10_19/Select.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework12_10_19/src/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/src/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumHomework12_10_19/src/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumHomework12_10_19/src/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seleniumPractice/src/LogInToNopCommerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/../seleniumPractice/src/LogInToNopCommerce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TQBxom2WpyYn9m9SWyApekRkjE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maven-demo-nopcommerce-project" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samsung\IdeaProjects\maven-demostore-x-cart-factory-project\drivers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ItemPage.buyLaceUpBoots" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-demostore-x-cart-factory-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xcart.demostore.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xcart.demostore.testpages" />
+      <option name="MAIN_CLASS_NAME" value="com.xcart.demostore.testsuite.ItemPage" />
+      <option name="METHOD_NAME" value="buyLaceUpBoots" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ItemPage.buyLaceUpBoots" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9103d0f-a8db-470a-be64-5524c5b1c036" name="Default Changelist" comment="" />
+      <created>1573382687143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573382687143</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/maven_demostore_x_cart_factory_project$ItemPage_buyLaceUpBoots.ic" NAME="ItemPage.buyLaceUpBoots Coverage Results" MODIFIED="1573409455610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xcart.demostore.testpages.*</FILTER>
+    </SUITE>
+  </component>
+</project>

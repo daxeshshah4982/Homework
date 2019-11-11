@@ -1,0 +1,10 @@
+2019-11-11 10:11:193 INFO  HomePage :38 - click on signin/signup
+2019-11-11 10:11:478 INFO  HomePage :43 - click on create account
+2019-11-11 10:11:687 INFO  HomePage :48 - Enter email
+2019-11-11 10:11:814 INFO  HomePage :53 - Enter password
+2019-11-11 10:11:490 INFO  HomePage :58 - Enter confirm password
+2019-11-11 10:11:894 INFO  HomePage :63 - click on create button
+2019-11-11 10:11:73 INFO  HomePage :83 - After refreshing the webpage page will navigate to shipping page
+2019-11-11 10:11:171 INFO  HomePage :95 - page will navigate ro sale page
+2019-11-11 10:11:373 INFO  HomePage :105 - page will navigate ro shopping list,here in this case boots
+2019-11-11 10:11:366 INFO  HomePage :115 - Verifying the item page
