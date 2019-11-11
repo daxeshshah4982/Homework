@@ -8,9 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = ".",
         plugin = {"pretty","html:target/cucumber-report"},
-        dryRun = false,
-        monochrome = true,
-        tags = "@Sanity"
+        dryRun = false
+   //     monochrome = true,
+    //    tags = "@Sanity"
 )
 public class TestRunner {
 }
