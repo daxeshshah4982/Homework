@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.example.api.serenity.CreateEmployeeDataDrivenTest" skipped="0" tests="1" time="16.12" timestamp="2019-12-340 12:20:08"><testcase classname="com.example.api.serenity.CreateEmployeeDataDrivenTest" name="Data Driven Test - Create Multi Employee Record"/></testsuite>

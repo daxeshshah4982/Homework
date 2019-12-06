@@ -1,0 +1,5 @@
+com\example\api\serenity\TestBase.class
+com\example\api\serenity\GetTests.class
+com\example\api\serenity\DeleteTests.class
+com\example\api\serenity\PostTests.class
+com\example\api\serenity\PutTests.class
